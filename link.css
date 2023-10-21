@@ -1,6 +1,26 @@
+#div1{
+    float: right;
+}
 #div2{
     float: right;
 }
-#div1{
-    float: right;
+input[type=button] {
+    font-size: 32px;
+    background: rgb(214, 187, 187);
+    color: aqua;
+    font-weight:500;
+    padding: 20px;
+    margin: 30px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+}
+#background {
+    background-image: url(phd\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
 }
