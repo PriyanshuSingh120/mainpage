@@ -18,9 +18,3 @@ input[type=button] {
     box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
     inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
 }
-#background {
-    background-image: url(phd\ \(1\).png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 200px;
-}
