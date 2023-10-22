@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Priyanshu & Pranjal</title>
+	<script src="https://www.google.com/recaptcha/enterprise.js?render=6LfhdL8oAAAAAJHj8sqtK4Mwn1A66LTR3yVijs1C" async defer></script>
         <link rel="website icon" type="png"
         href="phd (1).png">
         <script type='text/javascript' src='//impressexaltsculptor.com/6b/46/83/6b4683562a584ff2f1f88dc5b067017c.js'></script>
@@ -168,6 +169,18 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script></div>
+<script>
+function onClick(e) {
+  e.preventDefault();
+  grecaptcha.enterprise.ready(async () => {
+    const token = await grecaptcha.enterprise.execute('6LfhdL8oAAAAAJHj8sqtK4Mwn1A66LTR3yVijs1C', {action: 'LOGIN'});
+    // IMPORTANT: The 'token' that results from execute is an encrypted response sent by
+    // reCAPTCHA Enterprise to the end user's browser.
+    // This token must be validated by creating an assessment.
+    // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment
+  });
+}
+</script>
 	<script type='text/javascript' src='//impressexaltsculptor.com/2b/a4/87/2ba487a9620da046e4d382df4745465c.js'></script>
 </body>
 </html>
