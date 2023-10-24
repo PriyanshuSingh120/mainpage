@@ -18,3 +18,22 @@ input[type=button] {
     box-shadow: inset 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
     inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
 }
+#log {
+    float: right;
+    color: rgb(10, 137, 241);
+    background-color: black;
+    height: 40px;
+    width: 80px;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 50px;
+    border: none;
+    padding: 5px;
+    margin: 30px;
+
+}
+#log:hover {
+    background-color: green;
+    transform: translateX(10px);
+    transform: translateY(10px);
+}
