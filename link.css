@@ -37,3 +37,19 @@ input[type=button] {
     transform: translateX(10px);
     transform: translateY(10px);
 }
+#btn {
+    font-size: 32px;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 50px;
+    height: 70px;
+    width: 300px;
+    font-weight: 500;
+    border: 0px;
+}
+#btn:hover {
+    color: red;
+    border: 5px;
+    border-color: blue;
+    
+}
