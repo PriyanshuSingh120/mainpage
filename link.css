@@ -4,6 +4,9 @@
 #div2{
     float: right;
 }
+h1,h2,h3 {
+    color: aqua;
+}
 input[type=button] {
     font-size: 32px;
     background: rgb(214, 187, 187);
