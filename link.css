@@ -53,3 +53,10 @@ input[type=button] {
     border-color: blue;
     
 }
+body {
+    background-image: url('enlarge_bajrang-dal.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100% ;
+}
+
