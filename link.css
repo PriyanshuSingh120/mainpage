@@ -67,11 +67,10 @@ ul {
 }
 #menu {
     color: blue;
-    width: 400px;
+    width: 100%;
     font-size: large;
-    background-color: red;
-    
-
+    border: none;
+    text-align: center;
 }
 #menu ul {
     display: inline-flex;
