@@ -53,6 +53,7 @@ ul {
     font-size: large;
     border: none;
     text-align: center;
+    position: fixed;
 }
 #menu ul {
     display: inline-flex;
