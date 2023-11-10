@@ -85,3 +85,33 @@ ul {
     text-align: center;
     border-radius: 10px;
 }
+.horizontal-bar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.bar-item {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.bar-item:hover {
+    background-color: #555;
+}
+
+.bar-item.active {
+    background-color: #4CAF50;
+}
+
+@media screen and (max-width: 600px) {
+    .bar-item {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
