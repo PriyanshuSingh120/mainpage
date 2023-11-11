@@ -43,6 +43,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:100% 100% ;
+    margin: auto;
 }
 ul {
     list-style-type: none;
@@ -114,4 +115,11 @@ ul {
         width: 100%;
         text-align: center;
     }
+}
+#pre {
+    background: #191919 url("preloader.gif") no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
