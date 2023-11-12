@@ -126,3 +126,11 @@ ul {
 #diwali {
     text-align: center;
 }
+#online {
+    font-family: 'Lora', serif;
+    font-size: 100px;
+    text-align: center;
+    border-color: green;
+    background-color: green;
+    width: 800px;
+}
