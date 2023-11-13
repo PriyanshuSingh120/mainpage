@@ -142,3 +142,13 @@ ul {
     margin-left: 40px;
     margin-right: 10px;
 }
+#clock {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    font-size: 2em;
+    color: #cc1f7e;
+
+    background-color: black;
+    position: fixed;
+    margin-left: 87%;
+}
