@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 #div1{
     float: right;
 }
