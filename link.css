@@ -1,6 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
+html, body {
+  cursor: url("normal.cur"), default;
+}
 #div1{
     float: right;
 }
