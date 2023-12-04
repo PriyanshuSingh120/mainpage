@@ -165,7 +165,7 @@ ul {
   line-height: 78px;
   font-size: 20px;
   font-family: 'Bebas Neue', sans-serif;
-  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 5%, blue 5%);
   border: 0;
   color: #fff;
   letter-spacing: 3px;
@@ -192,7 +192,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, red 5%);
   text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
   clip-path: var(--slice-0);
 }
@@ -264,7 +264,7 @@ ul {
   line-height: 78px;
   font-size: 20px;
   font-family: 'Bebas Neue', sans-serif;
-  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 5%, blue 5%);
   border: 0;
   color: #fff;
   letter-spacing: 3px;
@@ -291,7 +291,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, red 5%);
   text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
   clip-path: var(--slice-0);
 }
@@ -363,7 +363,7 @@ ul {
   line-height: 78px;
   font-size: 20px;
   font-family: 'Bebas Neue', sans-serif;
-  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 5%, blue 5%);
   border: 0;
   color: #fff;
   letter-spacing: 3px;
@@ -390,7 +390,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, red 5%);
   text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
   clip-path: var(--slice-0);
 }
@@ -462,7 +462,7 @@ ul {
   line-height: 78px;
   font-size: 20px;
   font-family: 'Bebas Neue', sans-serif;
-  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 5%, blue 5%);
   border: 0;
   color: #fff;
   letter-spacing: 3px;
@@ -489,7 +489,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, red 5%);
   text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
   clip-path: var(--slice-0);
 }
@@ -554,7 +554,6 @@ ul {
     line-height: 88px;
   }
 }
-
 
 
 
