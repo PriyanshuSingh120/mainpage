@@ -4,6 +4,87 @@
     <title>GTA Vice City download 250 MB</title>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="index/javascripts/jquery-3.5.1.min.js"></script>
+    <script src="index/javascripts/prettify.min.js"></script>
+    <script src="topbar.min.js"></script>
+    <script>
+        $(function() {
+            prettyPrint()
+            function resetToDefaults() {
+              topbar.config({
+                autoRun      : true,
+                barThickness : 3,
+                barColors    : {
+                  '0'      : 'rgba(26,  188, 156, .9)',
+                  '.25'    : 'rgba(52,  152, 219, .9)',
+                  '.50'    : 'rgba(241, 196, 15,  .9)',
+                  '.75'    : 'rgba(230, 126, 34,  .9)',
+                  '1.0'    : 'rgba(211, 84,  0,   .9)'
+                },
+                shadowBlur   : 10,
+                shadowColor  : 'rgba(0,   0,   0,   .6)',
+                className    : 'topbar'
+              })
+            }
+  
+            // Page load
+            resetToDefaults()
+            topbar.show()
+            setTimeout(function() {
+              $('#main_content').fadeIn('slow')
+              topbar.hide()
+            }, 1500)
+  
+            // Simple Demo
+            $('#btnStartSimple').click(function() {
+              resetToDefaults()
+              topbar.show()
+            })
+            $('#btnStopSimple').click(function() {
+              topbar.hide()
+            })
+  
+            // Delayed Demo
+            $('#btnStartDelayed').click(function() {
+              resetToDefaults()
+              topbar.show(500)
+            })
+            $('#btnStopDelayed').click(function() {
+              topbar.hide()
+            })
+  
+            // Advanced Demo
+            $('#btnStartAdvanced').click(function() {
+              resetToDefaults()
+              topbar.config({
+                autoRun      : false, 
+                barThickness : 5,
+                barColors    : {
+                    '0'      : 'rgba(26,  188, 156, .7)',
+                    '.3'     : 'rgba(41,  128, 185, .7)',
+                    '1.0'    : 'rgba(231, 76,  60,  .7)'
+                },
+                shadowBlur   : 5,
+                shadowColor  : 'rgba(0, 0, 0, .5)'
+              })
+              topbar.show();
+              (function step() {
+                setTimeout(function() {  
+                  if (topbar.progress('+.01') < 1) step()
+                }, 16)
+              })()
+            })
+            $('#btnStopAdvanced').click(function() {
+              topbar.hide()  
+            })
+        })
+      </script>
     <link rel="website icon" href="https://i.pinimg.com/564x/17/9a/8b/179a8be8d364c5cda4f87e75fb285b96.jpg">
     <link rel="stylesheet" href="file.css">
 </head>
@@ -16,18 +97,19 @@
 
     <div class="container">
         <div class="download-section">
-            <h2>Welcome to the GTA Vice City Download Page</h2>
+            <h1 id="wel">Welcome to the GTA Vice City Download Page</h2>
             <p>Get ready for an action-packed adventure!</p>
+            <img src="https://i.pinimg.com/564x/17/9a/8b/179a8be8d364c5cda4f87e75fb285b96.jpg" alt="GTA Vice city Image" style="width:300px" height="300px"><br><br>
             <a href="https://drive.google.com/file/d/1ts_ySEAg7kn5HxTJUDDDk7byTzJg6G7-/view?usp=share_link" class="download-button">Download GTA Vice City Now</a>
         </div>
 
         <div class="about-section">
-          <h1 align="center">
-            <img src="https://i.pinimg.com/564x/17/9a/8b/179a8be8d364c5cda4f87e75fb285b96.jpg" alt="GTA Vice city Image" style="width:300px" height="300px">
+          <h3 align="center">
+            
             <h2 align="center">About GTA Vice City</h2>
             <p id="p">Welcome to GTA Vice City. Welcome to the 1980s. From the decade of big hair, excess and pastel suits comes a story of one man’s rise to the top of the criminal pile. Vice City, a huge urban sprawl ranging from the beach to the swamps and the glitz to the ghetto, was one of the most varied, complete and alive digital cities ever created. Combining open-world gameplay with a character driven narrative, you arrive in a town brimming with delights and degradation and given the opportunity to take it over as you choose. Having just made it back onto the streets of Liberty City after a long stretch in maximum security, Tommy Vercetti is sent to Vice City by his old boss, Sonny Forelli. They were understandably nervous about his re-appearance in Liberty City, so a trip down south seemed like a good idea. But all does not go smoothly upon his arrival in the glamorous, hedonistic metropolis of Vice City. He’s set up and is left with no money and no merchandise. Sonny wants his money back, but the biker gangs, Cuban gangsters, and corrupt politicians stand in his way. Most of Vice City seems to want Tommy dead. His only answer is to fight back and take over the city himself.</p>
-          </h1>
-            <h2>System requiremetns for Gta Vice City</h2>
+          </h>
+            <h1 id="wel">System requiremetns for Gta Vice City</h2>
             <ol>
               <li><b>OS:</b> Microsoft® Windows® 2000/XP</li>
               <li><b>Processor:</b> 800 MHz Intel Pentium III or 800 MHz AMD Athlon or 1.2GHz Intel Celeron or 1.2 GHz AMD Duron processor</li>
@@ -38,7 +120,7 @@
               <li><b>Sound Card:</b> Sound Card with DirectX 9.0
               </li>
             </ol>
-            <h2> screenshots of gta vice city</h2>
+            <h2 id="screen"> screenshots of gta vice city</h2>
             <div>
               <img src="vice city 1.jpg" height="300px" width="500px">
               <img src="vice city 2.png" height="300px" width="500px">
