@@ -41,7 +41,6 @@ body {
 }
 
 .about-section {
-    text-align: center;
     padding: 30px;
     background-color: #fff;
     border-radius: 10px;
@@ -57,4 +56,10 @@ body {
     color: white;
     text-align: center;
     padding: 10px;
+}
+#p{
+    text-align: justify;
+    font-size: large;
+    font-weight: 500;
+    color:darkorange;
 }
