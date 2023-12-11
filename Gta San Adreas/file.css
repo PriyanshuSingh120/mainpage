@@ -39,9 +39,11 @@ body {
     cursor: pointer;
     border-radius: 8px;
 }
-
+.download-button:active{
+    color:blue;
+    background-color:yellowgreen;
+}
 .about-section {
-    text-align: center;
     padding: 30px;
     background-color: #fff;
     border-radius: 10px;
@@ -57,4 +59,31 @@ body {
     color: white;
     text-align: center;
     padding: 10px;
+}
+#p{
+    text-align: justify;
+    font-size: large;
+    font-weight: 500;
+    color:darkorange;
+}
+h2 {
+    background-color: blue;
+    font-size: 50px;
+    text-align: center;
+    width: 70%;
+    margin-left: 20%;
+}
+#wel{
+    background-color: blue;
+    font-size: 45px;
+    text-align: center;
+    width: 90%;
+    margin-left:6%;
+}
+#screen {
+    background-color: blue;
+    font-size: 45px;
+    text-align: center;
+    width: 70%;
+    margin-left:15%;
 }
