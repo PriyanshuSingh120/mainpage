@@ -10,6 +10,14 @@ html, body {
 #div2{
     float: right;
 }
+#image{
+  transition-duration: 1s;
+}
+#image:hover{
+  height: 100vh;
+  float: left;
+  width: 90%;
+}
 h1,h2,h3 {
     color: aqua;
 }
