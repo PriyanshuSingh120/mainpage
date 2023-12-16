@@ -16,7 +16,7 @@ html, body {
 #image:hover{
   height: 100vh;
   float: left;
-  width: 90%;
+  width: 85%;
 }
 h1,h2,h3 {
     color: aqua;
