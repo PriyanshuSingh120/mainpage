@@ -59,43 +59,45 @@ body {
     padding: 10px;
 }
 #linkr{
-    height: 400px;
-    width: 440px;
+  height: 400px;
+  width: 440px;
 }
 #autoClickButton{
-    background-color: transparent;
-    border-color: transparent;
+  background-color: transparent;
+  border-color: transparent;
 }
 #h3{
-    background-color: red;
-    width: 390px;
-    margin-left: 25px;
-    color: blue;
-    font-size: 25px;
+  background-color: red;
+  width: 390px;
+  margin-left: 25px;
+  color: blue;
+  font-size: 25px;
 }
 #moda{
-    background-color: #001923;
-    border-color: transparent;
-    box-shadow: 0 0 red;
-    filter: blur(0.5px);
-    position: relative;
-    max-width: 600px;
-    padding: 50px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
-    background: rgba(255, 0, 0, 0.1);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(85, 35, 151, 0.25);
+  background-color: #001923;
+  border-color: transparent;
+  box-shadow: 0 0 red;
+  filter: blur(0.5px);
+  position: relative;
+  max-width: 600px;
+  padding: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+  background: rgba(255, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(85, 35, 151, 0.25);
+  position:fixed;
+
 }
 #close{
-    height: 50px;
-    width: 100px;
-    margin-left: 40%;
-    background-color: green;
-    border-color: transparent;
-    border-radius: 10%;
-    color:fuchsia;
-    font-weight: 800;
-    font-size: 17px;
-    filter: blur(0.5px) opacity(40%);
-    font-style: italic;
+  height: 50px;
+  width: 100px;
+  margin-left: 40%;
+  background-color: green;
+  border-color: transparent;
+  border-radius: 10%;
+  color:fuchsia;
+  font-weight: 800;
+  font-size: 17px;
+  filter: blur(0.5px) opacity(40%);
+  font-style: italic;
 }
