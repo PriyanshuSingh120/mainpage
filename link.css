@@ -583,6 +583,7 @@ ul {
     backdrop-filter: blur(20px);
     border: 1px solid rgba(85, 35, 151, 0.25);
     justify-content: center;
+    positon: fixed;
 }
 #close{
     height: 50px;
