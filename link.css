@@ -597,6 +597,12 @@ ul {
     font-size: 17px;
     filter: blur(0.5px) opacity(40%);
     font-style: italic;
+    animation: animate 0.5s infinite ;
+}
+@keyframes animate {
+    0% {background-color: #f30a0a; color: rgb(29, 255, 9);}
+    50% {background-color: #730ee6; color: rgb(40, 190, 26);}
+    100% {background-color: #eb4d0f; color: black;}   
 }
 #close::after{
     content: "Let's Go";
