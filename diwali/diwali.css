@@ -3,6 +3,7 @@
 body {
   background-color: #212121;
   font-family: "Sacramento", cursive;
+  overflow:hidden;	
 }
 
 .container {
