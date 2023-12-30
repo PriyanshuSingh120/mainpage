@@ -1,50 +1,42 @@
 body{
-    margin-left: 15px;
-    background-color: cornsilk;
+  margin-left: 15px;
+  background-color: cornsilk;
 }
-.horizontal-bar {
-    background-color: #333;
-    overflow: hidden;
-}
-
-.bar-item {
-    float: left;
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.bar-item:hover {
-    background-color: #555;
-}
-
-.bar-item.active {
-    background-color: #4CAF50;
+#h1::after{
+  content: "< BACK >";
+  background: rgb(129, 126, 126);
+  color: beige;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #head {
-    font-size: 55px;
-    background-color: rgb(63, 62, 62);
-    color: white;
-    height: 70px;
+  font-size: 55px;
+  background-color: rgb(63, 62, 62);
+  color: white;
+  height: 70px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #btn {
-    font-size: 32px;
-    color: black;
-    background-color: aquamarine;
-    border-radius: 50px;
-    height: 70px;
-    width: 300px;
-    font-weight: 500;
-    border: 0px;
+  font-size: 32px;
+  color: black;
+  background-color: aquamarine;
+  border-radius: 50px;
+  height: 70px;
+  width: 300px;
+  font-weight: 500;
+  border: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #btn:hover {
-    color: red;
-    border: 5px;
-    border-color: blue;
+  color: red;
+  border: 5px;
+  border-color: blue;
 }
 video {
-    text-align: center;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
