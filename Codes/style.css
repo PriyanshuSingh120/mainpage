@@ -111,25 +111,3 @@ a{
     text-decoration: none;
     cursor: url("normal.cur"), auto;
 }
-#back{
-  height: fit-content;
-  width: fit-content;
-  float: left;
-  color: white;
-  position: fixed;
-  background-color: greenyellow;
-  font-size: 30px;
-  animation: button infinite ease-in-out 1s alternate;
-}
-#back::after{
-  content: "BACK";
-}
-#back:hover::after{
-  content: "Click to BACK";
-
-}
-@keyframes button {
-  0%{background-color: rgb(63, 92, 90); color: white;}
-  50%{background-color: rgb(9, 82, 78); color:red;}
-  100%{background-color: rgb(33, 88, 90); color: rgb(241, 207, 14);}
-}
