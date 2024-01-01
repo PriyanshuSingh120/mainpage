@@ -30,21 +30,20 @@ h1{
 h2{
     color: white;
     text-align: center;
-    background-color: burlywood;
-    width: fit-content;
-    margin-left: 42%;
+    background-color: #FFBB5C;
+    width: 20%;
+    margin-left: 40%;
+    height: fit-content;
+    justify-content: center;
 }
 p{
     color: wheat;
     text-align: center;
-    background-color: rgb(127, 129, 235);
+    background-color: #11999E;
     height: fit-content;
     width: 80%;
     margin-left: 10%;
     text-align: center;
-}
-#Binary{
-    margin-left: 37%;
 }
 #Python{
     background: url("Python.jpg") ;
@@ -91,8 +90,8 @@ p{
     backdrop-filter: blur(20px);
     border: 1px solid rgba(85, 35, 151, 0.25);
     position:fixed;
-      cursor: url("normal.cur"), auto;
-  
+    cursor: url("normal.cur"), auto;
+    
   }
   #close{
     height: 50px;
@@ -106,9 +105,31 @@ p{
     font-size: 17px;
     filter: blur(0.5px) opacity(40%);
     font-style: italic;
-      cursor: url("normal.cur"), auto;
+    cursor: url("normal.cur"), auto;
   }
 a{
     text-decoration: none;
     cursor: url("normal.cur"), auto;
+}
+#back{
+  height: fit-content;
+  width: fit-content;
+  float: left;
+  color: white;
+  position: fixed;
+  background-color: greenyellow;
+  font-size: 30px;
+  animation: button infinite ease-in-out 1s alternate;
+}
+#back::after{
+  content: "BACK";
+}
+#back:hover::after{
+  content: "Click to BACK";
+
+}
+@keyframes button {
+  0%{background-color: rgb(63, 92, 90); color: white;}
+  50%{background-color: rgb(9, 82, 78); color:red;}
+  100%{background-color: rgb(33, 88, 90); color: rgb(241, 207, 14);}
 }
