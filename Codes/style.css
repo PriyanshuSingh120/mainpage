@@ -31,8 +31,9 @@ h2{
     color: white;
     text-align: center;
     background-color: #FFBB5C;
-    width: 20%;
-    margin-left: 40%;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
     height: fit-content;
     justify-content: center;
 }
@@ -106,8 +107,14 @@ p{
     filter: blur(0.5px) opacity(40%);
     font-style: italic;
     cursor: url("normal.cur"), auto;
+    animation: button infinite ease-in-out 1s alternate;
   }
 a{
     text-decoration: none;
     cursor: url("normal.cur"), auto;
+}
+@keyframes button {
+  0%{background-color: rgb(50, 216, 139); color: white;}
+  50%{background-color: rgb(17, 204, 195); color:red;}
+  100%{background-color: rgb(10, 106, 184); color: rgb(241, 14, 14);}
 }
