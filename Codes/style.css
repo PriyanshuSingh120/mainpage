@@ -49,7 +49,8 @@ p{
 #Python{
     background: url("Python.jpg") ;
     overflow: auto;
-    height: 60%;    
+    height: 60%;
+    overflow-x: hidden;  
 }
 #python::-webkit-scrollbar{
     width: 10px;
